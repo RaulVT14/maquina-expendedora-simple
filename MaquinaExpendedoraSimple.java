@@ -39,6 +39,12 @@ public class MaquinaExpendedoraSimple {
         
     }
     
+    /**
+     * Devuelve el dinero total acumulado
+     */
+    public int getTotalDineroAcumulado() {
+        return totalDineroAcumulado;
+    }
      
     
     /**
