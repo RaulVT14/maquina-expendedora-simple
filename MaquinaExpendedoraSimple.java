@@ -25,7 +25,7 @@ public class MaquinaExpendedoraSimple {
     }
     
     /**
-     * Crea un maquina expendedora de billetes de tre con el
+     * Crea un maquina expendedora de billetes de tren con el
      * precio del billete y el destino dados.
      */
     public MaquinaExpendedoraSimple(int precioDelBillete, String destino) {
@@ -38,10 +38,16 @@ public class MaquinaExpendedoraSimple {
         
         
     }
-    
+    /**
+     * Permite reducir el valor del precio en una cantidad
+     * pasada como parámetro
+     */
+    public void setNuevoPrecioBillete(int precioDelBillete) {
+        precioBillete = precioBillete - precioDelBillete;
+    }
     /**
      * Permite cambiar el valor del precio
-     * del billete
+     * del billete 
      */
     public void setPrecioBillete(int precioDelBillete) {
         precioBillete = precioDelBillete;
