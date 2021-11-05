@@ -45,7 +45,7 @@ public class MaquinaExpendedoraSimple {
      * Permite vaciar todo el dinero acumulado
      */
     public void vaciarDepositoDinero() {
-        vaciarDepositoDinero = totalDineroAcumulado;
+        totalDineroAcumulado = 0;
     }
     
     /**
